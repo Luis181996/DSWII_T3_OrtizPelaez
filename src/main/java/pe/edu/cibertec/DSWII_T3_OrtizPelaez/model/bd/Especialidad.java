@@ -14,12 +14,12 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "curso")
-public class Curso {
+@Table(name = "especialidad")
+public class Especialidad {
     @Id
-    private String idcurso;
-    @Column(name = "nomcurso")
-    private String nomcurso;
-    @Column(name = "credito")
-    private Integer credito;
+    private String idesp;
+    @Column(name = "nomesp")
+    private String nomesp;
+    @Column(name = "costo")
+    private Double costo;
 }

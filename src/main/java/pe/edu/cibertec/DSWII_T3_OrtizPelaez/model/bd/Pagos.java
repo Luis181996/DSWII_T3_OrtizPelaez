@@ -9,17 +9,21 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Date;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
 @Entity
-@Table(name = "curso")
-public class Curso {
+@Table(name = "pagos")
+public class Pagos {
     @Id
-    private String idcurso;
-    @Column(name = "nomcurso")
-    private String nomcurso;
-    @Column(name = "credito")
-    private Integer credito;
+    private String idalumno;
+    @Column (name = "ciclo")
+    private String ciclo;
+    private int ncuota;
+    private Double monto;
+    private Date fecha;
+
 }
