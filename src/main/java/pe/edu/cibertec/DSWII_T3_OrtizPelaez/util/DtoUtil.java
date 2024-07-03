@@ -1,5 +1,6 @@
 package pe.edu.cibertec.DSWII_T3_OrtizPelaez.util;
 
+import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
 import pe.edu.cibertec.DSWII_T3_OrtizPelaez.model.dto.DtoEntity;
 
