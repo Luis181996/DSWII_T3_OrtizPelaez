@@ -1,11 +1,18 @@
 package pe.edu.cibertec.DSWII_T3_OrtizPelaez.service;
 
 import lombok.AllArgsConstructor;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import pe.edu.cibertec.DSWII_T3_OrtizPelaez.model.bd.Rol;
-import pe.edu.cibertec.DSWII_T3_OrtizPelaez.model.bd.Usuario;
+import pe.edu.cibertec.DSWII_T3_OrtizPelaez.model.bd.pk.Rol;
+import pe.edu.cibertec.DSWII_T3_OrtizPelaez.model.bd.pk.Usuario;
 import pe.edu.cibertec.DSWII_T3_OrtizPelaez.repository.UsuarioRepository;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 @AllArgsConstructor

@@ -1,10 +1,11 @@
-package pe.edu.cibertec.DSWII_T3_OrtizPelaez.model.bd;
+package pe.edu.cibertec.DSWII_T3_OrtizPelaez.model.bd.pk;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import pe.edu.cibertec.DSWII_T3_OrtizPelaez.model.bd.pk.Rol;
 
 import java.util.Set;
 

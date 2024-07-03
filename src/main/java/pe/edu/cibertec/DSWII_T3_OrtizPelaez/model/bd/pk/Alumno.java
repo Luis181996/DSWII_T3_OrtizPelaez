@@ -1,4 +1,4 @@
-package pe.edu.cibertec.DSWII_T3_OrtizPelaez.model.bd;
+package pe.edu.cibertec.DSWII_T3_OrtizPelaez.model.bd.pk;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
